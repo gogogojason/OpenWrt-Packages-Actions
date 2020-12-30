@@ -136,22 +136,7 @@ cd .. && cd lean
 rm -rf luci-app-netdata
 rm -rf luci-app-wrtbwmon
 
-cd .. && cd ..
-rm -rf README
-rm -rf doc
 rm -rf ./*/.git
-rm -rf ./*/.svn
-rm -rf ./*/*/.git
-rm -rf ./*/*/.svn
-rm -rf ./*/*/*/.git
-rm -rf ./*/*/*/.svn
-rm -rf ./*/README.md
-rm -rf ./*/LICENSE
-rm -rf ./*/*/README.md
-rm -rf ./*/*/LICENSE
-rm -rf ./*/*/*/README.md
-rm -rf ./*/*/*/LICENSE
-rm -rf .svn
-rm -rf ./*/readme.txt
+rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
 exit 0
