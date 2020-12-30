@@ -49,6 +49,15 @@ jobs:
         rm -Rf *
         git rm --cache *
         $GITHUB_WORKSPACE/${{matrix.target}}.sh
+        
+    - name: 检查空间使用情况
+      run: |
+        echo "======================="
+        echo "Space usage:"
+        echo "======================="
+        df -hT
+        echo "======================="
+        du -h --max-depth=1 ${{matrix.target}}/
     
     - name: file cover
       run: | 
