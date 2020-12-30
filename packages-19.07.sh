@@ -67,14 +67,14 @@ wget https://raw.githubusercontent.com/lisaac/luci-app-diskman/master/Parted.Mak
 svn co https://github.com/destan19/OpenAppFilter/trunk ./
 rm -rf .svn
 svn co https://github.com/4IceG/luci-app-3ginfo/trunk/luci-app-3ginfo
-rm -rf luci-app-wrtbwmon
-rm -rf wrtbwmonluci
-git clone https://github.com/brvphoenix/luci-app-wrtbwmon.git wrtbwmonluci
-mv -f wrtbwmonluci/luci-app-wrtbwmon .
-rm -rf wrtbwmonluci
+#rm -rf luci-app-wrtbwmon
+#rm -rf wrtbwmonluci
+#git clone https://github.com/brvphoenix/luci-app-wrtbwmon.git wrtbwmonluci
+#mv -f wrtbwmonluci/luci-app-wrtbwmon .
+#rm -rf wrtbwmonluci
 svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/iptvhelper
 svn co https://github.com/riverscn/openwrt-iptvhelper/trunk/luci-app-iptvhelper
-svn co https://github.com/brvphoenix/wrtbwmon/trunk/wrtbwmon
+#svn co https://github.com/brvphoenix/wrtbwmon/trunk/wrtbwmon
 svn co https://github.com/KFERMercer/luci-app-tcpdump/trunk ./luci-app-tcpdump
 svn co https://github.com/tty228/luci-app-nodogsplash/trunk ./luci-app-nodogsplash
 svn co https://github.com/koshev-msk/luci-app-atinout/trunk ./luci-app-atinout
