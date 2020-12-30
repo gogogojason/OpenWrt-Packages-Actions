@@ -52,7 +52,7 @@ jobs:
     
     - name: file cover
       run: |   
-        cp –rf logos/logo.png luci-theme-edge/htdocs/luci-static/edge/
+        cp –rf logos/logo.png luci-theme-edge/htdocs/luci-static/edge/logo.png
         
     - name: Upload
       env: 
