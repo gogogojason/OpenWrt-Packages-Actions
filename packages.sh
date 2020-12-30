@@ -111,7 +111,7 @@ svn co https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr
 git clone https://github.com/jerrykuku/luci-app-argon-config
 git clone https://github.com/esirplayground/luci-app-poweroff
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-socat
-git clone https://github.com/gogogojason/logos
+git clone https://github.com/gogogojason/logos.git
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
