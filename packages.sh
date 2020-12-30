@@ -112,6 +112,8 @@ git clone https://github.com/jerrykuku/luci-app-argon-config
 git clone https://github.com/esirplayground/luci-app-poweroff
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-socat
 git clone https://github.com/gogogojason/logos.git
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-passwall
+git clone https://github.com/kenzok8/small.git feeds/small
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
