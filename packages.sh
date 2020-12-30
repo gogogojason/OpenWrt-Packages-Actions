@@ -110,6 +110,7 @@ svn co https://github.com/obsy/packages/trunk/3ginfo
 svn co https://github.com/liuran001/openwrt-theme/trunk/luci-theme-argon-lr
 git clone https://github.com/jerrykuku/luci-app-argon-config
 git clone https://github.com/esirplayground/luci-app-poweroff
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-socat
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
