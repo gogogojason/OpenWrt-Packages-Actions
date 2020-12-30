@@ -115,12 +115,18 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-passwall
 git clone https://github.com/kenzok8/small.git
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
+svn co https://github.com/firker/diy-ziyong/trunk/cpulimit-ng
+svn co https://github.com/firker/diy-ziyong/trunk/cpulimit
+svn co https://github.com/firker/diy-ziyong/trunk/luci-app-cpulimit
+svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
+svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
 
 
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
 
 cd .. && cd lean
 rm -rf luci-app-netdata
+rm -rf luci-app-wrtbwmon
 
 cd .. && cd ..
 rm -rf ./.github
