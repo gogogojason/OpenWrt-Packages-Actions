@@ -59,14 +59,15 @@ jobs:
         echo "======================="
         du -h --max-depth=1 ${{matrix.target}}/
         du -h --max-depth=1 ${{matrix.target}}/luci-theme-edge/
+        du -h --max-depth=1 ${{matrix.target}}/logos/
     
     - name: file cover
       run: | 
         cd ${{matrix.target}}
-        chmod -R 775 logos/logo.png
-        chmod -R 775 luci-theme-edge/htdocs/luci-static/edge/*
+        chmod -R 777 logos/logo.png
+        chmod -R 777 luci-theme-edge/htdocs/luci-static/edge/*
         rm -f luci-theme-edge/htdocs/luci-static/edge/logo.png
-        cp –r $(find logos/ -type f -name "*.png") luci-theme-edge/htdocs/luci-static/edge/
+        cp $(find logos/ -type f -name "*.png") luci-theme-edge/htdocs/luci-static/edge/
         
     - name: Upload
       env: 
