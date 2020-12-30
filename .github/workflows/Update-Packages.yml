@@ -64,10 +64,9 @@ jobs:
     - name: file cover
       run: | 
         cd ${{matrix.target}}
-        chmod -R 777 logos/logo.png
-        chmod -R 777 luci-theme-edge/htdocs/luci-static/edge/*
         rm -f luci-theme-edge/htdocs/luci-static/edge/logo.png
         cp $(find logos/ -type f -name "*.png") luci-theme-edge/htdocs/luci-static/edge/
+        rmdir logos
         
     - name: Upload
       env: 
