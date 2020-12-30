@@ -77,5 +77,5 @@ jobs:
         cd $GITHUB_WORKSPACE/${{matrix.target}}
         git init
         git add .
-        git commit -m "update$(TZ='Asia/Shanghai' date +@%Y%m%d)"
+        git commit -m "$(TZ='Asia/Shanghai' date +%Y年%m月%d日)更新"
         git push --quiet "https://${{ secrets.TOKEN }}@github.com/gogogojason/OpenWrt-Packages.git" HEAD:${{matrix.target}}
