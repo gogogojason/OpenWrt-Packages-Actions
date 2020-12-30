@@ -66,7 +66,7 @@ jobs:
         chmod -R 775 logos/logo.png
         chmod -R 775 luci-theme-edge/htdocs/luci-static/edge/*
         rm -f luci-theme-edge/htdocs/luci-static/edge/logo.png
-        cp –rf $(find logos/ -type f -name "*.png") luci-theme-edge/htdocs/luci-static/edge/
+        cp –r $(find logos/ -type f -name "*.png") luci-theme-edge/htdocs/luci-static/edge/
         
     - name: Upload
       env: 
