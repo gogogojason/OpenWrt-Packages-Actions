@@ -49,6 +49,11 @@ jobs:
         rm -Rf *
         git rm --cache *
         $GITHUB_WORKSPACE/${{matrix.target}}.sh
+    
+    - name: file cover
+      run: |   
+        cp –rf logos/logo.png luci-theme-edge/htdocs/luci-static/edge/
+        
     - name: Upload
       env: 
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
