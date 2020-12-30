@@ -14,7 +14,7 @@ svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-gost
 svn co https://github.com/jerrykuku/luci-app-jd-dailybonus/trunk ./luci-app-jd-dailybonus
 svn co https://github.com/jerrykuku/luci-theme-argon/branches/18.06 ./luci-theme-argon
-svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
+#svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
 svn co https://github.com/tty228/luci-app-serverchan/trunk ./luci-app-serverchan
 svn co https://github.com/fw876/helloworld/trunk ./
 rm -rf .svn
@@ -35,7 +35,9 @@ svn co https://github.com/garypang13/luci-theme-edge/branches/18.06 ./luci-theme
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomato
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomcat
 svn co https://github.com/jerrykuku/node-request/trunk ./node-request
-svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
+#svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-Butterfly-dark
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-Butterfly
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-argon-mc
