@@ -113,9 +113,32 @@ svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-socat
 git clone https://github.com/gogogojason/logos.git
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-passwall
 git clone https://github.com/kenzok8/small.git
+svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
+svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
+
+
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
 
+cd .. && cd lean
+rm -rf luci-app-netdata
+
+cd .. && cd ..
+rm -rf ./.github
+rm -rf README
+rm -rf doc
 rm -rf ./*/.git
-rm -rf ./*/.svn 
+rm -rf ./*/.svn
+rm -rf ./*/*/.git
+rm -rf ./*/*/.svn
+rm -rf ./*/*/*/.git
+rm -rf ./*/*/*/.svn
+rm -rf ./*/README.md
+rm -rf ./*/LICENSE
+rm -rf ./*/*/README.md
+rm -rf ./*/*/LICENSE
+rm -rf ./*/*/*/README.md
+rm -rf ./*/*/*/LICENSE
+rm -rf .svn
+rm -rf ./*/readme.txt
 rm -f .gitattributes .gitignore
 exit 0
