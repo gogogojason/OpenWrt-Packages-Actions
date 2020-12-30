@@ -51,7 +51,8 @@ jobs:
         $GITHUB_WORKSPACE/${{matrix.target}}.sh
     
     - name: file cover
-      run: |   
+      run: | 
+        cd ${{matrix.target}}  
         cp –rf logos/logo.png luci-theme-edge/htdocs/luci-static/edge/logo.png
         
     - name: Upload
