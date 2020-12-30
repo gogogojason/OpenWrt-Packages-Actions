@@ -114,6 +114,7 @@ svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-socat
 git clone https://github.com/gogogojason/logos.git
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-passwall
 git clone https://github.com/kenzok8/small.git
+sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
