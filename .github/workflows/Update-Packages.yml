@@ -61,9 +61,7 @@ jobs:
     
     - name: file cover
       run: | 
-        cd ${{matrix.target}}  
-        logo_dir=logos/logo.png
-        cp –rf logo_dir luci-theme-edge/htdocs/luci-static/edge/
+        cp –rf ${{matrix.target}}/logos/logo.png ${{matrix.target}}/luci-theme-edge/htdocs/luci-static/edge/
         
     - name: Upload
       env: 
