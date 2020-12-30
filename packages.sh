@@ -137,7 +137,6 @@ rm -rf luci-app-netdata
 rm -rf luci-app-wrtbwmon
 
 cd .. && cd ..
-rm -rf ./.github
 rm -rf README
 rm -rf doc
 rm -rf ./*/.git
