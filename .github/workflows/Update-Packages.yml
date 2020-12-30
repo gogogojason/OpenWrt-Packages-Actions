@@ -58,6 +58,8 @@ jobs:
         df -hT
         echo "======================="
         du -h --max-depth=1 ${{matrix.target}}/
+        du -h --max-depth=1 ${{matrix.target}}/luci-theme-edge/
+        du -h --max-depth=1 ${{matrix.target}}/logos/
     
     - name: file cover
       run: | 
