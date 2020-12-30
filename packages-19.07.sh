@@ -10,7 +10,7 @@ rm -rf OpenClash
 git clone https://github.com/vernesong/OpenClash.git
 mv -f OpenClash/luci-app-openclash .
 rm -rf OpenClash
-svn co https://github.com/garypang13/luci-app-eqos/trunk ./luci-app-eqos
+svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-app-gost
 svn co https://github.com/jerrykuku/luci-app-jd-dailybonus/trunk ./luci-app-jd-dailybonus
 svn co https://github.com/jerrykuku/luci-theme-argon/trunk ./luci-theme-argon
