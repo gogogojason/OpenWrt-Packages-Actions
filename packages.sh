@@ -129,14 +129,13 @@ svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
 
-
 sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
-
-cd .. && cd lean
-rm -rf luci-app-netdata
-rm -rf luci-app-wrtbwmon
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
+
+cd .. && cd lean
+rm -rf luci-app-netdata
+rm -rf luci-app-wrtbwmon
 exit 0
