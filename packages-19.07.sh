@@ -1,4 +1,6 @@
 #!/bin/bash
+mkdir vssr
+
 svn co https://github.com/kenzok8/openwrt-packages/trunk/adguardhome
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/gost
 svn co https://github.com/rufengsuixing/luci-app-adguardhome/trunk ./luci-app-adguardhome
@@ -14,7 +16,7 @@ svn co https://github.com/littletao08/luci-app-eqos/trunk ./luci-app-eqos
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-app-gost
 svn co https://github.com/jerrykuku/luci-app-jd-dailybonus/trunk ./luci-app-jd-dailybonus
 svn co https://github.com/jerrykuku/luci-theme-argon/trunk ./luci-theme-argon
-svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
+#svn co https://github.com/jerrykuku/luci-app-vssr/trunk ./luci-app-vssr
 svn co https://github.com/tty228/luci-app-serverchan/trunk ./luci-app-serverchan
 svn co https://github.com/fw876/helloworld/trunk ./
 rm -rf .svn
@@ -35,7 +37,15 @@ svn co https://github.com/garypang13/luci-theme-edge/trunk ./luci-theme-edge
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomato
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomcat
 svn co https://github.com/jerrykuku/node-request/trunk ./node-request
-svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
+#svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-vssr
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
+svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full ./vssr/dnscrypt-proxy-full
+svn co https://github.com/siropboy/mypackages/trunk/syncthing ./vssr/syncthing
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS ./vssr/ChinaDNS
+svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet ./vssr/GoQuiet
+svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./vssr/openwrt-udpspeeder
+svn co https://github.com/sensec/openwrt-udp2raw/trunk ./vssr/openwrt-udp2raw
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-Butterfly-dark
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-Butterfly
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-argon-mc
