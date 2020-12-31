@@ -67,8 +67,6 @@ jobs:
         rm -f luci-theme-edge/htdocs/luci-static/edge/logo.png
         cp logos/milogo.png luci-theme-edge/htdocs/luci-static/edge/logo.png
         rm logos -r
-        sed -i 's/"网速控制"/"内网控速"/g' luci-app-eqos/files/po/zh-cn/eqos.po
-        sed -i 's/"Argon 主题设置"/"Argon设置"/g' luci-app-argon-config/po/zh-cn/argon-config.po
         
     - name: Upload
       env: 
