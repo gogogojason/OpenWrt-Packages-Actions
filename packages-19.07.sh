@@ -42,8 +42,8 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
 svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full ./vssr/dnscrypt-proxy-full
 svn co https://github.com/siropboy/mypackages/trunk/syncthing ./vssr/syncthing
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/ChinaDNS ./vssr/ChinaDNS
-svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/GoQuiet ./vssr/GoQuiet
+svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/ChinaDNS ./vssr/ChinaDNS
+svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/GoQuiet ./vssr/GoQuiet
 svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./vssr/openwrt-udpspeeder
 svn co https://github.com/sensec/openwrt-udp2raw/trunk ./vssr/openwrt-udp2raw
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-Butterfly-dark
@@ -66,8 +66,6 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-airplay2
 svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom
 svn co https://github.com/cnzd/luci-app-koolproxyR/trunk ./luci-app-koolproxyR
 svn co https://github.com/MiRouter/luci-app-vssr-plus/trunk ./luci-app-vssr-plus
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/GoQuiet
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/ChinaDNS
 svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
 svn co https://github.com/lisaac/luci-lib-docker/trunk/collections/luci-lib-docker
 svn co https://github.com/lisaac/luci-app-diskman/trunk ./luci-app-diskman
