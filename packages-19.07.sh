@@ -129,7 +129,8 @@ svn co https://github.com/firker/diy-ziyong/trunk/luci-app-cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
 
-sed -i 's/"网速控制"/"内网控速"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
+sed -i 's/网速控制/内网控速/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
+sed -i 's/"Argon 主题设置"/"Argon设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 
 rm -rf ./*/.git
 rm -rf ./*/.svn 
