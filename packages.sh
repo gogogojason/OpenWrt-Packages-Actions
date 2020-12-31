@@ -135,7 +135,7 @@ rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
 
-cd .. && cd lean
+cd .. && cd package/lean
 rm -rf luci-app-netdata
 rm -rf luci-app-wrtbwmon
 exit 0
