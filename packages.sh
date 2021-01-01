@@ -128,6 +128,7 @@ svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
 
 sed -i 's/"内网控速"/"网速控制"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
+sed -i 's/${Arch}/${Arch}_softfloat/g' /luci-app-adguardhome/root/usr/share/AdGuardHome/links.txt
 sed -i 's/"Argon设置"/"Argon 主题设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/msgstr "Socat"/msgstr "端口转发"/g' ./luci-app-socat/po/zh-cn/socat.po
 
