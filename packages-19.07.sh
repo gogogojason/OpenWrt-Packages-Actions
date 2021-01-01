@@ -139,6 +139,7 @@ rm -rf README
 rm -rf doc
 rm -rf ./*/.git
 rm -rf ./*/.svn
+rm -rf ./*/.github
 rm -rf ./*/*/.git
 rm -rf ./*/*/.svn
 rm -rf ./*/*/*/.git
