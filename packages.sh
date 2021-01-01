@@ -132,8 +132,23 @@ sed -i 's/${Arch}/${Arch}_softfloat/g' /luci-app-adguardhome/root/usr/share/AdGu
 sed -i 's/"Argon设置"/"Argon 主题设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/msgid "Socat"/msgid "端口转发"/g' ./luci-app-socat/po/zh-cn/socat.po
 
+rm -rf ./.github
+rm -rf README
+rm -rf doc
 rm -rf ./*/.git
-rm -rf ./*/.svn 
+rm -rf ./*/.svn
+rm -rf ./*/*/.git
+rm -rf ./*/*/.svn
+rm -rf ./*/*/*/.git
+rm -rf ./*/*/*/.svn
+rm -rf ./*/README.md
+rm -rf ./*/LICENSE
+rm -rf ./*/*/README.md
+rm -rf ./*/*/LICENSE
+rm -rf ./*/*/*/README.md
+rm -rf ./*/*/*/LICENSE
+rm -rf .svn
+rm -rf ./*/readme.txt
 rm -f .gitattributes .gitignore
 
 cd .. && cd package/lean
