@@ -132,6 +132,10 @@ sed -i 's/${Arch}/${Arch}_softfloat/g' ./luci-app-adguardhome/root/usr/share/AdG
 sed -i 's/"Argon设置"/"Argon 主题设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/msgid "Socat"/msgid "端口转发"/g' ./luci-app-socat/po/zh-cn/socat.po
 
+rm -f ./smartdns/conf/smartdns.conf
+cp logos/opsmartdns.conf ./smartdns/conf/smartdns.conf
+rm logos -r
+
 rm -rf ./.github
 rm -rf README
 rm -rf doc
