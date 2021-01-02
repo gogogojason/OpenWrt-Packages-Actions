@@ -134,7 +134,6 @@ sed -i 's/msgid "Socat"/msgid "端口转发"/g' ./luci-app-socat/po/zh-cn/socat.
 
 rm -f ./smartdns/conf/smartdns.conf
 cp logos/opsmartdns.conf ./smartdns/conf/smartdns.conf
-rm logos -r
 
 rm -rf ./.github
 rm -rf README
