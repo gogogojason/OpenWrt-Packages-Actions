@@ -134,6 +134,9 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-gpsysupgrad
 
 sed -i 's/https:\/\/op.supes.top/http:\/\/openwrt.ink:8666/g' ./luci-app-gpsysupgrade/root/usr/bin/upgrade.lua
 sed -i 's/https:\/\/op.supes.top/http:\/\/openwrt.ink:8666/g' ./luci-app-gpsysupgrade/luasrc/model/cbi/gpsysupgrade/sysupgrade.lua
+sed -i 's/firmware\/redmi-ac2100/firmware\/RedMi2100/g' ./luci-app-gpsysupgrade/root/usr/bin/upgrade.lua
+sed -i 's/firmware\/redmi-ac2100/firmware\/RedMi2100/g' ./luci-app-gpsysupgrade/luasrc/model/cbi/gpsysupgrade/sysupgrade.lua
+
 rm -f ./luci-app-gpsysupgrade/luasrc/view/admin_status/index/links.htm
 rm -f ./luci-app-gpsysupgrade/po/zh_Hans/gpsysupgrade.po
 cp logos/oplinks.htm ./luci-app-gpsysupgrade/luasrc/view/admin_status/index/links.htm
