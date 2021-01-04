@@ -129,6 +129,7 @@ svn co https://github.com/firker/diy-ziyong/trunk/luci-app-cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-bypass
+svn co https://github.com/garypang13/openwrt-packages/trunk/shadowsocksr-libev
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-gpsysupgrade
 
 sed -i 's/https:\/\/op.supes.top/http:\/\/openwrt.ink:8666/g' ./luci-app-gpsysupgrade/root/usr/bin/upgrade.lua
