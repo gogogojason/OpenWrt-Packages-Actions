@@ -128,6 +128,7 @@ svn co https://github.com/firker/diy-ziyong/trunk/cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
+svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-bypass
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-gpsysupgrade
 
 sed -i 's/https:\/\/op.supes.top/http:\/\/openwrt.ink:8666/g' ./luci-app-gpsysupgrade/root/usr/bin/upgrade.lua
@@ -137,6 +138,10 @@ rm -f ./luci-app-gpsysupgrade/po/zh_Hans/gpsysupgrade.po
 cp logos/oplinks.htm ./luci-app-gpsysupgrade/luasrc/view/admin_status/index/links.htm
 mkdir -p ./luci-app-gpsysupgrade/po/zh-cn
 cp logos/opgpsysupgrade.po ./luci-app-gpsysupgrade/po/zh-cn/gpsysupgrade.po
+rm -f ./luci-app-bypass/po/zh_Hans/bypass.zh-cn.po
+mkdir -p ./luci-app-bypass/po/zh-cn
+cp logos/opbypass.zh-cn.po ./luci-app-bypass/po/zh-cn/bypass.zh-cn.po
+
 
 sed -i 's/"内网控速"/"网速控制"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
 sed -i 's/${Arch}/${Arch}_softfloat/g' ./luci-app-adguardhome/root/usr/share/AdGuardHome/links.txt
