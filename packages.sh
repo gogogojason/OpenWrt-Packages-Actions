@@ -147,6 +147,9 @@ sed -i 's/${Arch}/${Arch}_softfloat/g' ./luci-app-adguardhome/root/usr/share/AdG
 sed -i 's/"Argon设置"/"Argon 主题设置"/g' ./luci-app-argon-config/po/zh-cn/argon-config.po
 sed -i 's/msgid "Socat"/msgid "端口转发"/g' ./luci-app-socat/po/zh-cn/socat.po
 
+sed -i 's/shadowsocksr-libev-alt/shadowsocksr-libev-redir/g' */Makefile
+sed -i 's/shadowsocksr-libev-ssr-local/shadowsocksr-libev-local/g' */Makefile
+
 rm -f ./smartdns/conf/smartdns.conf
 cp logos/opsmartdns.conf ./smartdns/conf/smartdns.conf
 
