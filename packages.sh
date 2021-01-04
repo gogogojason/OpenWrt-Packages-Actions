@@ -140,6 +140,7 @@ cp logos/opgpsysupgrade.po ./luci-app-gpsysupgrade/po/zh-cn/gpsysupgrade.po
 rm -f ./luci-app-bypass/po/zh_Hans/bypass.zh-cn.po
 mkdir -p ./luci-app-bypass/po/zh-cn
 cp logos/opbypass.zh-cn.po ./luci-app-bypass/po/zh-cn/bypass.zh-cn.po
+sed -i 's/zh_Hans/zh-cn/g' ./luci-app-bypass/Makefile
 
 
 sed -i 's/"内网控速"/"网速控制"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
