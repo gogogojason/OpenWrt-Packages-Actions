@@ -135,6 +135,7 @@ sed -i 's/https:\/\/op.supes.top/http:\/\/openwrt.ink:8666/g' ./luci-app-gpsysup
 rm -f ./luci-app-gpsysupgrade/luasrc/view/admin_status/index/links.htm
 rm -f ./luci-app-gpsysupgrade/po/zh_Hans/gpsysupgrade.po
 cp logos/oplinks.htm ./luci-app-gpsysupgrade/luasrc/view/admin_status/index/links.htm
+mkdir -p ./luci-app-gpsysupgrade/po/zh-cn
 cp logos/opgpsysupgrade.po ./luci-app-gpsysupgrade/po/zh-cn/gpsysupgrade.po
 
 sed -i 's/"内网控速"/"网速控制"/g' ./luci-app-eqos/files/po/zh-cn/eqos.po
