@@ -150,6 +150,9 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/xray
 svn co https://github.com/garypang13/openwrt-packages/trunk/tcping-simple
 svn co https://github.com/garypang13/openwrt-packages/trunk/tcping
 svn co https://github.com/garypang13/openwrt-packages/trunk/tcpping
+svn co https://github.com/garypang13/openwrt-packages/trunk/openwrt-udp2raw
+svn co https://github.com/garypang13/openwrt-packages/trunk/GoQuiet
+svn co https://github.com/garypang13/openwrt-packages/trunk/ChinaDNS
 
 sed -i 's/https:\/\/op.supes.top/http:\/\/openwrt.ink:8666/g' ./luci-app-gpsysupgrade/root/usr/bin/upgrade.lua
 sed -i 's/https:\/\/op.supes.top/http:\/\/openwrt.ink:8666/g' ./luci-app-gpsysupgrade/luasrc/model/cbi/gpsysupgrade/sysupgrade.lua
