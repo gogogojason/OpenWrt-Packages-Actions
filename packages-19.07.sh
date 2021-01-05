@@ -147,6 +147,9 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/trojan
 svn co https://github.com/garypang13/openwrt-packages/trunk/v2ray-plugin
 svn co https://github.com/garypang13/openwrt-packages/trunk/v2ray
 svn co https://github.com/garypang13/openwrt-packages/trunk/xray
+svn co https://github.com/garypang13/openwrt-packages/trunk/tcping-simple
+svn co https://github.com/garypang13/openwrt-packages/trunk/tcping
+svn co https://github.com/garypang13/openwrt-packages/trunk/tcpping
 
 sed -i 's/https:\/\/op.supes.top/http:\/\/openwrt.ink:8666/g' ./luci-app-gpsysupgrade/root/usr/bin/upgrade.lua
 sed -i 's/https:\/\/op.supes.top/http:\/\/openwrt.ink:8666/g' ./luci-app-gpsysupgrade/luasrc/model/cbi/gpsysupgrade/sysupgrade.lua
