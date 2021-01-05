@@ -153,6 +153,11 @@ svn co https://github.com/garypang13/openwrt-packages/trunk/tcpping
 svn co https://github.com/garypang13/openwrt-packages/trunk/openwrt-udp2raw
 svn co https://github.com/garypang13/openwrt-packages/trunk/GoQuiet
 svn co https://github.com/garypang13/openwrt-packages/trunk/ChinaDNS
+svn co https://github.com/garypang13/openwrt-packages/trunk/openvpn-easy-rsa-whisky
+svn co https://github.com/garypang13/openwrt-packages/trunk/openwrt-Pcap_DNSProxy
+svn co https://github.com/garypang13/openwrt-packages/trunk/openwrt-dnsforwarder
+svn co https://github.com/garypang13/openwrt-packages/trunk/openwrt-shadowvpn-master
+svn co https://github.com/garypang13/openwrt-packages/trunk/openwrt-pdnsd-full
 
 sed -i 's/https:\/\/op.supes.top/http:\/\/openwrt.ink:8666/g' ./luci-app-gpsysupgrade/root/usr/bin/upgrade.lua
 sed -i 's/https:\/\/op.supes.top/http:\/\/openwrt.ink:8666/g' ./luci-app-gpsysupgrade/luasrc/model/cbi/gpsysupgrade/sysupgrade.lua
