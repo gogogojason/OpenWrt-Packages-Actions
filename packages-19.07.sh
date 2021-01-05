@@ -120,7 +120,7 @@ git clone https://github.com/esirplayground/luci-app-poweroff
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-socat
 git clone https://github.com/gogogojason/logos.git
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-passwall
-git clone https://github.com/kenzok8/small.git
+#git clone https://github.com/kenzok8/small.git
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
 svn co https://github.com/firker/diy-ziyong/trunk/cpulimit-ng
@@ -128,9 +128,25 @@ svn co https://github.com/firker/diy-ziyong/trunk/cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-cpulimit
 svn co https://github.com/firker/diy-ziyong/trunk/luci-app-wrtbwmon-zhcn
 svn co https://github.com/firker/diy-ziyong/trunk/wrtbwmon
+
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-bypass
-svn co https://github.com/garypang13/openwrt-packages/trunk/shadowsocksr-libev
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-gpsysupgrade
+svn co https://github.com/garypang13/openwrt-packages/trunk/brook
+svn co https://github.com/garypang13/openwrt-packages/trunk/chinadns-ng
+svn co https://github.com/garypang13/openwrt-packages/trunk/dns2socks
+svn co https://github.com/garypang13/openwrt-packages/trunk/ipt2socks
+svn co https://github.com/garypang13/openwrt-packages/trunk/kcptun
+svn co https://github.com/garypang13/openwrt-packages/trunk/openssl1.1
+svn co https://github.com/garypang13/openwrt-packages/trunk/pdnsd-alt
+svn co https://github.com/garypang13/openwrt-packages/trunk/shadowsocksr-libev
+svn co https://github.com/garypang13/openwrt-packages/trunk/simple-obfs
+svn co https://github.com/garypang13/openwrt-packages/trunk/ssocks
+svn co https://github.com/garypang13/openwrt-packages/trunk/trojan-go
+svn co https://github.com/garypang13/openwrt-packages/trunk/trojan-plus
+svn co https://github.com/garypang13/openwrt-packages/trunk/trojan
+svn co https://github.com/garypang13/openwrt-packages/trunk/v2ray-plugin
+svn co https://github.com/garypang13/openwrt-packages/trunk/v2ray
+svn co https://github.com/garypang13/openwrt-packages/trunk/xray
 
 sed -i 's/https:\/\/op.supes.top/http:\/\/openwrt.ink:8666/g' ./luci-app-gpsysupgrade/root/usr/bin/upgrade.lua
 sed -i 's/https:\/\/op.supes.top/http:\/\/openwrt.ink:8666/g' ./luci-app-gpsysupgrade/luasrc/model/cbi/gpsysupgrade/sysupgrade.lua
