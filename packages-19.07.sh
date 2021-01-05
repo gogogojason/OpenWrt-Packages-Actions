@@ -42,10 +42,10 @@ svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-app-
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/lua-maxminddb
 svn co https://github.com/siropboy/mypackages/trunk/dnscrypt-proxy-full ./vssr/dnscrypt-proxy-full
 svn co https://github.com/siropboy/mypackages/trunk/syncthing ./vssr/syncthing
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/ChinaDNS ./vssr/ChinaDNS
-svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/GoQuiet ./vssr/GoQuiet
+#svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/ChinaDNS ./vssr/ChinaDNS
+#svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/GoQuiet ./vssr/GoQuiet
 svn co https://github.com/pexcn/openwrt-udpspeeder/trunk ./vssr/openwrt-udpspeeder
-svn co https://github.com/sensec/openwrt-udp2raw/trunk ./vssr/openwrt-udp2raw
+#svn co https://github.com/sensec/openwrt-udp2raw/trunk ./vssr/openwrt-udp2raw
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-Butterfly-dark
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-Butterfly
 svn co https://github.com/project-openwrt/openwrt/branches/openwrt-19.07/package/ctcgfw/luci-theme-argon-mc
