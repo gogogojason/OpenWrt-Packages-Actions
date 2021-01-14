@@ -24,7 +24,9 @@ git clone https://github.com/esirplayground/luci-app-poweroff
 git clone https://github.com/gogogojason/logos.git
 svn co https://github.com/siropboy/sirpdboy-package/trunk/luci-app-netdata
 svn co https://github.com/siropboy/sirpdboy-package/trunk/netdata
-
+git clone https://github.com/garypang13/luci-app-dnsfilter.git
+git clone https://github.com/pymumu/openwrt-smartdns.git
+git clone https://github.com/pymumu/luci-app-smartdns.git
 svn co https://github.com/garypang13/openwrt-packages/trunk/luci-app-bypass
 svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns
 svn co https://github.com/garypang13/openwrt-packages/trunk/tcping
